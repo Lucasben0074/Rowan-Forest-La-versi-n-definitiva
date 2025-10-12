@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\klaus\\Projects\\rowansForest-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|c:\\users\\klaus\\projects\\rowansforest-main\\assets\\klaus\\scripts\\player\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\player\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|c:\\users\\klaus\\projects\\rowansforest-main\\assets\\klaus\\scripts\\ui\\displayinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\ui\\displayinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|c:\\users\\klaus\\projects\\rowansforest-main\\assets\\klaus\\scripts\\enemy\\meleeenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\enemy\\meleeenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|C:\\Users\\klaus\\Projects\\rowansForest-main\\assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|C:\\Users\\klaus\\Projects\\rowansForest-main\\assets\\klaus\\scripts\\player\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\player\\healthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|C:\\Users\\klaus\\Projects\\rowansForest-main\\assets\\klaus\\scripts\\player\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\player\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|C:\\Users\\klaus\\Projects\\rowansForest-main\\assets\\klaus\\scripts\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D84F78-114E-ED99-1615-F061269C7777}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Player\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Player\\Inventory.cs",
+              "ToolTip": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Player\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Player\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T23:10:27.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DisplayInventory.cs",
+              "DocumentMoniker": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\UI\\DisplayInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\UI\\DisplayInventory.cs",
+              "ToolTip": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\UI\\DisplayInventory.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\UI\\DisplayInventory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAvwDUAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T23:09:29.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Player\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Player\\HealthBar.cs",
+              "ToolTip": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Player\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Player\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T21:33:37.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthController.cs",
+              "DocumentMoniker": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Player\\HealthController.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Player\\HealthController.cs",
+              "ToolTip": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Player\\HealthController.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Player\\HealthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:30:21.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterMovement.cs",
+              "DocumentMoniker": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Scripts\\characterMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\characterMovement.cs",
+              "ToolTip": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Scripts\\characterMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\characterMovement.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:04:34.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Player\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Player\\PlayerData.cs",
+              "ToolTip": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Player\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Player\\PlayerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T19:04:25.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeleeEnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Enemy\\MeleeEnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Enemy\\MeleeEnemyAI.cs",
+              "ToolTip": "C:\\Users\\klaus\\Projects\\rowansForest-main\\Assets\\Klaus\\Scripts\\Enemy\\MeleeEnemyAI.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Enemy\\MeleeEnemyAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T17:22:09.694Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

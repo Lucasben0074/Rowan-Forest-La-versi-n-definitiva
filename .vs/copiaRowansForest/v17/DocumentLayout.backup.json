@@ -1,0 +1,327 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\copiaRowansForest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|c:\\projects\\copiarowansforest\\assets\\klaus\\scripts\\dialogue\\npc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\dialogue\\npc2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|c:\\projects\\copiarowansforest\\assets\\klaus\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\dialogue\\npc1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\dialogue\\npc1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\scripts\\shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\scripts\\thirdpersonshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thirdpersonshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\player\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\player\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\scripts\\enemyselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\player\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\player\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\itemholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\itemholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\ui\\displayinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\ui\\displayinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\scriptableobjects\\items\\itemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\scriptableobjects\\items\\itemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\scriptableobjects\\items\\stoneobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\scriptableobjects\\items\\stoneobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\enemy\\meleeenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\enemy\\meleeenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\player\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\scriptableobjects\\items\\potionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\scriptableobjects\\items\\potionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\klaus\\scripts\\dialogue\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\klaus\\scripts\\dialogue\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\scripts\\enemyhealtcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealtcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|C:\\Projects\\copiaRowansForest\\assets\\scripts\\raycastfear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81ABB97-F149-CAFD-6216-3D3D18D9863E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\raycastfear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInteract.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Player\\PlayerInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Player\\PlayerInteract.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Player\\PlayerInteract.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Player\\PlayerInteract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T14:11:39.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NPC2.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Dialogue\\NPC2.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Dialogue\\NPC2.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Dialogue\\NPC2.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Dialogue\\NPC2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T14:05:37.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NPC1.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Dialogue\\NPC1.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Dialogue\\NPC1.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Dialogue\\NPC1.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Dialogue\\NPC1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T14:04:50.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "shoot.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\shoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\shoot.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\shoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\shoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:49:11.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Player\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Player\\HealthBar.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Player\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Player\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:48:32.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemySelector.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\EnemySelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySelector.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\EnemySelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:48:24.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemHolder.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\ItemHolder.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\ItemHolder.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\ItemHolder.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\ItemHolder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:45:56.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DisplayInventory.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\UI\\DisplayInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\UI\\DisplayInventory.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\UI\\DisplayInventory.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\UI\\DisplayInventory.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:42:14.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CharacterMovement.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\CharacterMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMovement.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\CharacterMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterMovement.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T23:41:50.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ItemObject.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\ItemObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\ItemObject.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\ItemObject.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\ItemObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:25:33.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StoneObject.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\StoneObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\StoneObject.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\StoneObject.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\StoneObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:25:23.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PotionObject.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\PotionObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\PotionObject.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\PotionObject.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\ScriptableObjects\\Items\\PotionObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:25:26.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Player\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Player\\Inventory.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Player\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Player\\Inventory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:21:59.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dialogue.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Dialogue\\Dialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Dialogue\\Dialogue.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Dialogue\\Dialogue.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Dialogue\\Dialogue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:05:59.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Player\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Player\\PlayerData.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Player\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Player\\PlayerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T19:01:05.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThirdPersonShooting.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\ThirdPersonShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ThirdPersonShooting.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\ThirdPersonShooting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ThirdPersonShooting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:43:54.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EnemyHealtControler.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\EnemyHealtControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealtControler.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\EnemyHealtControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealtControler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:43:03.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MeleeEnemyAI.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Enemy\\MeleeEnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Klaus\\Scripts\\Enemy\\MeleeEnemyAI.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Klaus\\Scripts\\Enemy\\MeleeEnemyAI.cs",
+              "RelativeToolTip": "Assets\\Klaus\\Scripts\\Enemy\\MeleeEnemyAI.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:43:00.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RaycastFear.cs",
+              "DocumentMoniker": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\RaycastFear.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RaycastFear.cs",
+              "ToolTip": "C:\\Projects\\copiaRowansForest\\Assets\\Scripts\\RaycastFear.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RaycastFear.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T13:42:29.551Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|e:\\proyectos unity\\proyectos\\rowans\\rowansforest\\rowansforest\\assets\\scripts\\enemies\\fox\\foxmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\fox\\foxmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\enemies\\fox\\foxattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\fox\\foxattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\playerscripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\playerinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\stonesscript\\stones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stonesscript\\stones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\logicgame\\interactionhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\logicgame\\interactionhud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\logicgame\\dialoguesistem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\logicgame\\dialoguesistem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\npcscripts\\npcdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcscripts\\npcdialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\logicgame\\logicgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\logicgame\\logicgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\playerscripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\enemies\\fox\\enemyhealtcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\fox\\enemyhealtcontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\logicgame\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\logicgame\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\playerscripts\\charactershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\charactershooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\projectile\\projectiledamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile\\projectiledamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\projectile\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F85AA1B3-F0AC-EF6A-155B-8A39595FF63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\proyectos unity\\proyectos\\rowans\\rowansforest\\rowansforest\\assets\\tutorialcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\tutorialcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\proyectos unity\\proyectos\\rowans\\rowansforest\\rowansforest\\assets\\tutorialinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\tutorialinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\onbossdistroyevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\onbossdistroyevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\bossfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\bossfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\nextlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\nextlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\carteltutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\carteltutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\eventbosslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\eventbosslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\setfinalposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\setfinalposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\tronco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\tronco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\pumpkinsshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\pumpkinsshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\assets\\scripts\\enemies\\fox\\bosslifecontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\enemies\\fox\\bosslifecontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TutorialContent.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\TutorialContent.cs",
+              "RelativeDocumentMoniker": "Assets\\TutorialContent.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\TutorialContent.cs",
+              "RelativeToolTip": "Assets\\TutorialContent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T22:58:41.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TutorialInteraction.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\TutorialInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\TutorialInteraction.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\TutorialInteraction.cs",
+              "RelativeToolTip": "Assets\\TutorialInteraction.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T22:49:26.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InteractionHud.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\LogicGame\\InteractionHud.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LogicGame\\InteractionHud.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\LogicGame\\InteractionHud.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LogicGame\\InteractionHud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T23:43:47.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LogicGate.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\LogicGame\\LogicGate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LogicGame\\LogicGate.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\LogicGame\\LogicGate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LogicGame\\LogicGate.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T23:29:32.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OnBossDistroyEvent.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\OnBossDistroyEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\OnBossDistroyEvent.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\OnBossDistroyEvent.cs",
+              "RelativeToolTip": "Assets\\OnBossDistroyEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T23:06:35.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BossLifeControler.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Enemies\\Fox\\BossLifeControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Fox\\BossLifeControler.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Enemies\\Fox\\BossLifeControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Fox\\BossLifeControler.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwCgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:25:12.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BossFinal.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\BossFinal.cs",
+              "RelativeDocumentMoniker": "Assets\\BossFinal.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\BossFinal.cs",
+              "RelativeToolTip": "Assets\\BossFinal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T00:02:26.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerInteraction.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\PlayerScripts\\PlayerInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerInteraction.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\PlayerScripts\\PlayerInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\PlayerInteraction.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAswH8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:37:11.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoxMovement.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Enemies\\Fox\\FoxMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Fox\\FoxMovement.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Enemies\\Fox\\FoxMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Fox\\FoxMovement.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwDYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:15:22.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FoxAttack.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Enemies\\Fox\\FoxAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Fox\\FoxAttack.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Enemies\\Fox\\FoxAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Fox\\FoxAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:37:34.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DialogueSistem.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\LogicGame\\DialogueSistem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LogicGame\\DialogueSistem.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\LogicGame\\DialogueSistem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LogicGame\\DialogueSistem.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowHoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T23:43:53.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Stones.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\StonesScript\\Stones.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StonesScript\\Stones.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\StonesScript\\Stones.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StonesScript\\Stones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T23:47:45.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NextLevel.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\NextLevel.cs",
+              "RelativeDocumentMoniker": "Assets\\NextLevel.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\NextLevel.cs",
+              "RelativeToolTip": "Assets\\NextLevel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAxwA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T02:51:28.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartelTutorial.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\CartelTutorial.cs",
+              "RelativeDocumentMoniker": "Assets\\CartelTutorial.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\CartelTutorial.cs",
+              "RelativeToolTip": "Assets\\CartelTutorial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T22:11:10.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EventBossLogic.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\EventBossLogic.cs",
+              "RelativeDocumentMoniker": "Assets\\EventBossLogic.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\EventBossLogic.cs",
+              "RelativeToolTip": "Assets\\EventBossLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:47:54.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SetFinalPosition.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\SetFinalPosition.cs",
+              "RelativeDocumentMoniker": "Assets\\SetFinalPosition.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\SetFinalPosition.cs",
+              "RelativeToolTip": "Assets\\SetFinalPosition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:55:40.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "prueba.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\prueba.cs",
+              "RelativeDocumentMoniker": "Assets\\prueba.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\prueba.cs",
+              "RelativeToolTip": "Assets\\prueba.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:44:42.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\LogicGame\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LogicGame\\GameManager.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\LogicGame\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LogicGame\\GameManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAtwC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:53:55.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Tronco.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Tronco.cs",
+              "RelativeDocumentMoniker": "Assets\\Tronco.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Tronco.cs",
+              "RelativeToolTip": "Assets\\Tronco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T02:29:59.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HealthManager.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\PlayerScripts\\HealthManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\HealthManager.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\PlayerScripts\\HealthManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\HealthManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:06:33.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NPCDialogue.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\NPCScripts\\NPCDialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPCScripts\\NPCDialogue.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\NPCScripts\\NPCDialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPCScripts\\NPCDialogue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T19:36:44.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CharacterShooting.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\PlayerScripts\\CharacterShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\CharacterShooting.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\PlayerScripts\\CharacterShooting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\CharacterShooting.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:55:19.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PumpkinsShoot.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\PumpkinsShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\PumpkinsShoot.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\PumpkinsShoot.cs",
+              "RelativeToolTip": "Assets\\PumpkinsShoot.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T20:34:19.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemyHealtControler.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Enemies\\Fox\\EnemyHealtControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Fox\\EnemyHealtControler.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Enemies\\Fox\\EnemyHealtControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Fox\\EnemyHealtControler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T23:25:48.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectileDamage.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Projectile\\ProjectileDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile\\ProjectileDamage.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Projectile\\ProjectileDamage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectile\\ProjectileDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:52:36.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Projectile\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile\\Projectile.cs",
+              "ToolTip": "E:\\Proyectos Unity\\proyectos\\Rowans\\RowansForest\\RowansForest\\Assets\\Scripts\\Projectile\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Projectile\\Projectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:52:18.976Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
