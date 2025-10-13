@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Level1.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/LEVEL1.unity
+    guid: e04a2ed3320707643ab42c8ac5e3d872
   - enabled: 1
     path: Assets/Scenes/VentanaInicio.unity
     guid: e7106e6ac1bc6a549adfb59f167c9c13
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LevelDesign.unity
     guid: b4ec0582cde50784e9919376fc21e245
   m_configObjects:
