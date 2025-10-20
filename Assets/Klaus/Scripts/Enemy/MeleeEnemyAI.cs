@@ -27,6 +27,7 @@ public class MeleeEnemyAI : MonoBehaviour
 
     private float sightRange = 7, attackRange = 1;
     private bool isPlayerInSightRange, isPlayerInAttackRange;
+    
 
     private void Awake()
     {
