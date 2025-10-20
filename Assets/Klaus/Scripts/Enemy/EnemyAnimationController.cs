@@ -7,13 +7,13 @@ public class EnemyAnimationController : MonoBehaviour
     private Animator animator;
     private NavMeshAgent agent;
 
-    private MeleeEnemyAI enemyAI;
+    private MeleeEnemyAI1 enemyAI;
 
     private void Start()
     {
         animator = GetComponentInChildren<Animator>();
         agent = GetComponent<NavMeshAgent>();
-        enemyAI = GetComponent<MeleeEnemyAI>(); 
+        enemyAI = GetComponent<MeleeEnemyAI1>(); 
     }
     private void Update()
     {
