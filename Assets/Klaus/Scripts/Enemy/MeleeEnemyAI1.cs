@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
 
-public class MeleeEnemyAI : MonoBehaviour
+public class MeleeEnemyAI1 : MonoBehaviour
 {
 
     //agregado para el FEAR del amuleto
