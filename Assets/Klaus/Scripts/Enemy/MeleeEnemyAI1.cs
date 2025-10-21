@@ -5,6 +5,10 @@ using System.Collections;
 public class MeleeEnemyAI1 : MonoBehaviour
 {
 
+
+
+    [SerializeField] private LayerMask enviroment;
+
     //agregado para el FEAR del amuleto
     private bool isFeared = false;
 
@@ -134,21 +138,63 @@ public class MeleeEnemyAI1 : MonoBehaviour
         {
             if (!isFeared)
             {
-                isPlayerInSightRange = Physics.CheckSphere(transform.position, sightRange, playerLayer);
+                // Detecta si el jugador está en el rango de visión
+                bool playerInRange = Physics.CheckSphere(transform.position, sightRange, playerLayer);
+
+                if (playerInRange)
+                {
+                    // Verifica si hay línea de visión directa
+                    Vector3 directionToPlayer = (player.position - transform.position).normalized;
+                    float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+                    // Si el raycast NO choca con un obstáculo, el jugador está visible
+                    if (!Physics.Raycast(transform.position + Vector3.up, directionToPlayer, distanceToPlayer, enviroment))
+                    {
+                        isPlayerInSightRange = true;
+                    }
+                    else
+                    {
+                        isPlayerInSightRange = false; // Hay algo bloqueando la vista
+                    }
+
+                    // (Opcional) Dibuja el raycast para debug visual
+                    Debug.DrawRay(transform.position + Vector3.up, directionToPlayer * distanceToPlayer, isPlayerInSightRange ? Color.green : Color.red, 0.3f);
+                }
+                else
+                {
+                    isPlayerInSightRange = false;
+                }
+
+                // El rango de ataque sigue igual
                 isPlayerInAttackRange = Physics.CheckSphere(transform.position, attackRange, playerLayer);
             }
-            
 
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(0.3f); // Actualiza el estado cada 0.3 segundos
         }
     }
 
+
+    //private IEnumerator UpdateState()
+    //{
+    //    while (true)
+    //    {
+    //        if (!isFeared)
+    //        {
+    //            isPlayerInSightRange = Physics.CheckSphere(transform.position, sightRange, playerLayer);
+    //            isPlayerInAttackRange = Physics.CheckSphere(transform.position, attackRange, playerLayer);
+    //        }
+
+
+    //        yield return new WaitForSeconds(0.3f);
+    //    }
+    //}
+
     private void HandleFear()
     {
-        if (isDestroyedOnFear)
-        {
-            Destroy(gameObject, 2);
-        }
+        //if (isDestroyedOnFear)
+        //{
+        //    Destroy(gameObject, 2);
+        //}
 
         fearTimer -= Time.deltaTime;     
         agent.SetDestination(transform.position + fearDirection * 10f);
