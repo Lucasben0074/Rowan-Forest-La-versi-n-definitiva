@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2956675107231996394}
   - component: {fileID: -751641741116854112}
   - component: {fileID: 7484029874731024013}
+  - component: {fileID: -8025496752918218410}
   m_Layer: 7
   m_Name: EnemyFox
   m_TagString: Enemy
@@ -76,7 +77,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 30
-  isDamageable: 0
 --- !u!54 &1955252669250383512
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -140,11 +140,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5087308216274820831}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d60d5d4f43ce99489f68dc55ed5ec0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enviroment:
+    serializedVersion: 2
+    m_Bits: 0
   isDestroyedOnFear: 0
   moveSpeed: 0
   groundLayer:
@@ -162,11 +165,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5087308216274820831}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d6c7c43ec87a185408588a7c255a0aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!195 &-8025496752918218410
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5087308216274820831}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &8316024861352491853
 PrefabInstance:
   m_ObjectHideFlags: 0
