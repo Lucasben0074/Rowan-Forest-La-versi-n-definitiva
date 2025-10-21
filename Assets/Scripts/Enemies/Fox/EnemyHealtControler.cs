@@ -21,7 +21,7 @@ public class EnemyHealtControler : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("PlayerBullet"))
+        if ((other.gameObject.CompareTag("PlayerBullet")) && (!gameObject.CompareTag("NoDamageable")))
         {              
             health -= other.GetComponent<ProjectileDamage>().StoneDamage;
             healthBar.UpdateHealthBar(health,maxHealth);

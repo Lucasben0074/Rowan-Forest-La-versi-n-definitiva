@@ -16,6 +16,8 @@ TagManager:
   - LevelKey
   - Amuleto
   - Cartel
+  - NoDamageable
+  - Torch
   layers:
   - Default
   - TransparentFX
@@ -25,7 +27,7 @@ TagManager:
   - UI
   - Player
   - Enemy
-  - 
+  - Enviroment
   - 
   - 
   - 

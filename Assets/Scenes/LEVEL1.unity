@@ -7861,6 +7861,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4985224742458540747, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.13
@@ -8355,6 +8359,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (14)
@@ -9057,6 +9065,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2956675107231996394, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: playerPosition
       value: 
@@ -9766,6 +9778,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (32)
@@ -10687,6 +10703,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (22)
@@ -11048,6 +11068,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (7)
@@ -12479,6 +12503,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (12)
@@ -15967,6 +15995,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (33)
@@ -16711,6 +16743,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (13)
@@ -17200,6 +17236,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (28)
@@ -18557,6 +18597,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 723453875}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2956675107231996394, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: maxDistance
       value: 30
@@ -18618,6 +18662,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (34)
@@ -19747,6 +19795,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (27)
@@ -19912,6 +19964,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (29)
@@ -20185,6 +20241,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 723453875}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2956675107231996394, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: maxDistance
       value: 30
@@ -21981,6 +22041,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (11)
@@ -22533,6 +22597,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (19)
@@ -23441,6 +23509,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (4)
@@ -24548,6 +24620,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (8)
@@ -24605,6 +24681,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (24)
@@ -25125,6 +25205,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (3)
@@ -25498,127 +25582,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874848243}
   m_Mesh: {fileID: -758506114555286194, guid: db2bdd5a41e380241a66879297aedc77, type: 3}
---- !u!1 &877636384
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 877636388}
-  - component: {fileID: 877636387}
-  - component: {fileID: 877636386}
-  - component: {fileID: 877636385}
-  - component: {fileID: 877636389}
-  m_Layer: 0
-  m_Name: MainGate
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &877636385
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877636384}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &877636386
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877636384}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e4b16c8d0ddc78242bcf8c1349e6a17b, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &877636387
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877636384}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &877636388
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877636384}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6, y: 6.1928, z: 486.5908}
-  m_LocalScale: {x: 59.829872, y: 25.25, z: 7.2323976}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &877636389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877636384}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03b292b4c9fe4b243ba029e22c0df2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &880199138
 GameObject:
   m_ObjectHideFlags: 0
@@ -26211,6 +26174,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2956675107231996394, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: playerPosition
       value: 
@@ -27923,6 +27890,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (25)
@@ -31242,6 +31213,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (23)
@@ -31573,6 +31548,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (17)
@@ -34847,6 +34826,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (6)
@@ -38286,6 +38269,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (30)
@@ -39985,6 +39972,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 723453875}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2956675107231996394, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: maxDistance
       value: 30
@@ -40279,6 +40270,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2956675107231996394, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: playerPosition
       value: 
@@ -42207,6 +42202,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1805447128593810177, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Center.z
       value: 0.16
@@ -42928,6 +42927,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (10)
@@ -46105,6 +46108,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (16)
@@ -46220,7 +46227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3900468171596362271, guid: 0ff32f57e2a81534997eae7eb372b4b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.8
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 3900468171596362271, guid: 0ff32f57e2a81534997eae7eb372b4b8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -46228,7 +46235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3900468171596362271, guid: 0ff32f57e2a81534997eae7eb372b4b8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.9
+      value: 95.8
       objectReference: {fileID: 0}
     - target: {fileID: 3900468171596362271, guid: 0ff32f57e2a81534997eae7eb372b4b8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -47036,6 +47043,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (20)
@@ -48684,6 +48695,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (31)
@@ -49568,6 +49583,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (21)
@@ -50256,6 +50275,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (26)
@@ -53697,6 +53720,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 723453875}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2956675107231996394, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: maxDistance
       value: 30
@@ -54688,6 +54715,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (18)
@@ -54987,6 +55018,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (9)
@@ -56021,6 +56056,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2000912380}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5087308216274820831, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Name
       value: EnemyFox (15)
@@ -56078,6 +56117,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 723453875}
     m_Modifications:
+    - target: {fileID: -8025496752918218410, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1805447128593810177, guid: 841ce8163deb2dd4dba111670e241479, type: 3}
       propertyPath: m_Center.z
       value: 0.16
@@ -59417,6 +59460,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 212073696990592817, guid: 46e358c74bf51724b80cbf2a0f41aca7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3448443389755437988, guid: 46e358c74bf51724b80cbf2a0f41aca7, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -59505,9 +59552,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6169790070530298558, guid: 46e358c74bf51724b80cbf2a0f41aca7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6724679573626101644, guid: 46e358c74bf51724b80cbf2a0f41aca7, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 9198789581863426158, guid: 46e358c74bf51724b80cbf2a0f41aca7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59575,6 +59630,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7329109371c71f4f84d26987702d8cd, type: 3}
+--- !u!1001 &2102408282038404574
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.1928
+      objectReference: {fileID: 0}
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 486.5908
+      objectReference: {fileID: 0}
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 393782809158388197, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3182180336396471516, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
+      propertyPath: m_Name
+      value: MainGate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c3da1fe74b34dea4191255c9b97cb637, type: 3}
 --- !u!1001 &2962706801863547221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59761,7 +59873,7 @@ SceneRoots:
   - {fileID: 70247610}
   - {fileID: 2962706801863547221}
   - {fileID: 4601806983299961089}
-  - {fileID: 877636388}
+  - {fileID: 2102408282038404574}
   - {fileID: 17301183}
   - {fileID: 1377072585}
   - {fileID: 1131798595}

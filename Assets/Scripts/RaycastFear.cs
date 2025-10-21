@@ -1,18 +1,54 @@
+using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AreaFear : MonoBehaviour
 {
-    [SerializeField] private float radius = 10f;       // Radio de la esfera de fear
+    [SerializeField] private TMP_Text timeVisionCooldown;
+    [SerializeField] private GameObject amuletVisualCooldown;
+    [SerializeField] private float fearCooldown = 10f;
+    private float timer = 0f;
+    private bool canFear = true;
+    [SerializeField] private float manaCost = 20;
+    [SerializeField] private float radius = 30f;       // Radio de la esfera de fear
     [SerializeField] private float fearDuration = 3f;  // Cuánto dura el efecto
     [SerializeField] private KeyCode fearKey = KeyCode.F; // Tecla para activar
     [SerializeField] private LayerMask enemyLayer;     // Solo enemigos
-
+    private Animator animator;
+    private ManaManager manaManager;
+    private void Start()
+    {
+        amuletVisualCooldown.SetActive(false);
+        manaManager = gameObject.GetComponent<ManaManager>();
+        animator = GetComponentInChildren<Animator>();
+    }
     void Update()
     {
-        if (Input.GetKeyDown(fearKey))
+        if (Input.GetKeyDown(fearKey) && canFear)
         {
+            manaManager.CurrentMana -= manaCost;
+            animator.SetTrigger("fear");
             ApplyAreaFear();
+            canFear = false;
         }
+
+        if (!canFear)
+        {
+            amuletVisualCooldown.SetActive(true);
+            timer += Time.deltaTime;
+            if (timer <= 10f)
+            {
+                timeVisionCooldown.text = Mathf.Ceil(fearCooldown - timer).ToString("0");
+            }
+            else
+            {
+                timer = 0;
+                canFear = true;
+                amuletVisualCooldown.SetActive(false);
+            }
+        }
+
     }
 
     private void ApplyAreaFear()
@@ -22,7 +58,7 @@ public class AreaFear : MonoBehaviour
 
         foreach (Collider hit in hits)
         {
-            MeleeEnemyAI enemyAI = hit.GetComponent<MeleeEnemyAI>();
+            MeleeEnemyAI1 enemyAI = hit.GetComponent<MeleeEnemyAI1>();
             if (enemyAI != null)
             {
                 enemyAI.ApplyFear(transform.position, fearDuration);
