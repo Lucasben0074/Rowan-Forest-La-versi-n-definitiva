@@ -123,7 +123,92 @@ public class DialogueSistem : MonoBehaviour
                 "NPC2",
             }
             ));
-    
+        dialogues.Add(6, new Dialogue(
+            new string[]
+            {
+                " ¡Eh, tú! No había visto a nadie por aquí en días…",
+                "No quiero problemas, solo busco a alguien que pueda ayudarme.",
+                "  ¿Qué necesitas, pequeña?\r\n",
+                 "Necesito encontrar a mi hermano. Entró en el bosque y… lo perdí de vista. ¿Lo has visto por aquí?\r\n",
+                 "No, no he visto a ningún muchacho. Pero quizás NPC2 pueda ayudarte. Vive en el árbol más grande del bosque, el que sobresale entre todos los demás. Desde allí puede ver casi todo el bosque.",
+                 "¿NPC2 ? ¿Crees que él sepa algo?",
+                 "Si alguien ha visto a tu hermano, es ella. Pero escúchame bien, niña… ten cuidado en el camino.",
+                 "¿Por qué?",
+                 " Hay cosas moviéndose entre los árboles. No son amistosas. Si los escuchas, no corras: agáchate, quédate quieta y deja que pasen.",
+                 "Entendido… seré sigilosa. Gracias por advertirme.",
+                 "No me las des todavía. Encuentra a tu hermano… y no dejes que el bosque te encuentre primero.",
+
+            },
+            new string[]
+            {
+                "NPC1",
+                "Rowan",
+                "NPC1",
+                "Rowan",
+                "NPC1",
+                "Rowan",
+                "NPC1",
+                "Rowan",
+                "NPC1",
+                "Rowan",
+                "NPC1",
+            }
+            ));
+        dialogues.Add(7, new Dialogue(
+        new string[]
+        {
+                " No muchos se atreven a llegar hasta aquí. ¿Quién eres, niña?",
+                "Soy Rowan. NPC1 me dijo que viniera a verte. Estoy buscando a mi hermano… entró al bosque y no he vuelto a verlo.",
+                " Ah, sí… NPC1. Siempre ha enviado problemas hacia mí.",
+                 "¿Lo has visto? Desde aquí puedes ver todo, ¿verdad?",
+                 "He visto sombras moviéndose entre los árboles. No sé si eran tu hermano o algo más…",
+                 "¿Sabes cómo puedo salir de este lugar? Cada camino me lleva de nuevo al mismo punto.",
+                 "Hay una salida… justo aquí. Pero está bloqueada por la oscuridad.",
+                 "¿Oscuridad?",
+                 " La sombra cubre todo lo que fue luz. Para alejarla, debes hacer que las antorchas de la cueva vuelvan a encenderse. Cuando la luz renazca, el paso se abrirá.\r\n",
+                 "¿Y dónde está esa cueva?",
+                 "Algunos árboles tienen marcas de la oscuridad. Pero ve con cuidado a la oscuridad no le gusta que la despierten.",
+                 " ¿Despertarla?",
+                 "La oscuridad es un ser, se encargó de apagar todo. Para vencerla debes alumbrar la cueva.",
+                 "Entiendo... entonces tendré que encenderlas y enfrentar a la oscuridad para salir de aquí.",
+                 "Sí. Y tal vez, con la luz, también encuentres lo que buscas.",
+                 "Recuerda, pequeña: no temas a la oscuridad… pero no la desafíes demasiado tiempo.",
+
+        },
+        new string[]
+        {
+                "NPC2",
+                "Rowan",
+                "NPC2",
+                "Rowan",
+                "NPC2",
+                "Rowan",
+                "NPC2",
+                "Rowan",
+                "NPC2",
+                "Rowan",
+                "NPC2",
+                "Rowan",
+                "NPC2",
+                "Rowan",
+                "NPC2",
+                "NPC2",
+        }
+        ));
+        dialogues.Add(8, new Dialogue(
+            new string[]
+            {
+                "Gracias Rowan!! Por devolver la luz a este lugar, pasó tanto tiempo que olvidé cómo se sentía la luz. ",
+                "No fue fácil, pero fue posible gracias a tus consejos.",
+                "Para recompensarte solo puedo ofrecerte esta espada, tu camino aún continúa, espero que encuentres a tu hermano.",
+            },
+            new string[]
+            {
+                "NPC2",
+                "Rowan",
+                "NPC2",
+            }
+            ));
     }
 
     public void StartDialogue(int dialogueID)
