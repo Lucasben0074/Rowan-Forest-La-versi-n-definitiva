@@ -18,6 +18,7 @@ TagManager:
   - Cartel
   - NoDamageable
   - Torch
+  - LVL3Door
   layers:
   - Default
   - TransparentFX

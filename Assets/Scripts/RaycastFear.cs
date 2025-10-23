@@ -53,21 +53,29 @@ public class AreaFear : MonoBehaviour
 
     private void ApplyAreaFear()
     {
-
-        Collider[] hits = Physics.OverlapSphere(transform.position, radius, enemyLayer);
+        Collider[] hits = Physics.OverlapSphere(transform.position, radius);
+        Debug.Log("Total colliders detectados: " + hits.Length);
 
         foreach (Collider hit in hits)
         {
+            Debug.Log(" Collider: " + hit.name + " | Layer: " + LayerMask.LayerToName(hit.gameObject.layer));
+
+            BossFinalController boss = hit.GetComponent<BossFinalController>();
+            if (boss != null)
+            {
+                Debug.Log(" Boss detectado, aplicando Fear");
+                boss.ApplyFear(transform.position, fearDuration);
+            }
+
             MeleeEnemyAI1 enemyAI = hit.GetComponent<MeleeEnemyAI1>();
             if (enemyAI != null)
             {
+                Debug.Log(" Enemigo detectado, aplicando Fear");
                 enemyAI.ApplyFear(transform.position, fearDuration);
-                Debug.Log("Fear aplicado a: " + hit.name);
             }
         }
-
-        Debug.DrawLine(transform.position, transform.position + Vector3.up * 2, Color.cyan, 1f);
     }
+
 
 
     private void OnDrawGizmosSelected()

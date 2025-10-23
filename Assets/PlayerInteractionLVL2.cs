@@ -1,14 +1,36 @@
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class PlayerInteractionLVL2 : MonoBehaviour
 {
+    public UnityEvent OnBossActivate;
+    [SerializeField] private GameObject narrativePanel;
     private NPCDialogue currentNPC;
+    private bool canAccesLvl3 = false;
+    private bool narrativePanelActivate = false;
+    public bool NarrativePanelActivate
+    {
+        get { return narrativePanelActivate; }
+        set { narrativePanelActivate = value; }
+        }
+    public bool CanAccesLvl3
+    {
+        get { return canAccesLvl3; }
+        set { canAccesLvl3 = value; } 
+    }
+
 
     [SerializeField] private Canvas Interaction; // Canvas del NPC
     private Canvas torchInteraction;
     private Light torchLight;
     private ParticleSystem torchFlame;
+    private int torchCount = 0;
 
+    public void DisableNarrativePanel()
+    {
+        narrativePanel.SetActive(false);
+    }
     private void Start()
     {
         // Asegura que el cartel del NPC arranque oculto
@@ -18,9 +40,28 @@ public class PlayerInteractionLVL2 : MonoBehaviour
 
     private void Update()
     {
+
+        if (Input.GetMouseButtonDown(0) && narrativePanelActivate)
+        {
+            DisableNarrativePanel();
+            narrativePanelActivate = false;
+        
+            }
+
         //  Interacción con NPC
         if (currentNPC != null && Input.GetKeyDown(KeyCode.E))
-            currentNPC.TriggerDialogue();
+            {
+             if(torchCount >= 3)
+             {
+                currentNPC.DialogueID = 8;
+              currentNPC.TriggerDialogue();
+             }
+            else
+            {
+                currentNPC.TriggerDialogue();
+            }
+            }
+
 
         if (DialogueSistem.Instance != null && Input.GetMouseButtonDown(0))
             DialogueSistem.Instance.DisplayNextSentence();
@@ -35,6 +76,8 @@ public class PlayerInteractionLVL2 : MonoBehaviour
             {
                 torchLight.enabled = true;
                 Debug.Log(" Luz encendida");
+                torchCount++;
+                Debug.Log(torchCount);
             }
             else
             {
@@ -50,6 +93,12 @@ public class PlayerInteractionLVL2 : MonoBehaviour
             {
                 Debug.LogWarning(" No encontró el ParticleSystem en la antorcha");
             }
+        }
+        //Inicio del evento boss;
+        if(torchCount == 3)
+        {
+            OnBossActivate.Invoke();
+            torchCount++;
         }
     }
 
@@ -126,6 +175,21 @@ public class PlayerInteractionLVL2 : MonoBehaviour
             torchFlame = null;
 
             Debug.Log("Salió del rango de la antorcha");
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("LVL3Door"))
+        {
+            if (canAccesLvl3)
+            {
+                SceneManager.LoadScene("LEVEL 3");
+            }
+            else
+            {
+                Debug.Log("Esta cerrado maestro, volve mas tarde");
+            }
         }
     }
 }
