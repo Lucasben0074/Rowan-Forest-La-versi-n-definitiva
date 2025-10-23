@@ -1,9 +1,15 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
-public class BossFinalController : MonoBehaviour
+public class BossFinalController : MonoBehaviour, IDamageMaker
 {
+    public UnityEvent OnBossDeath;
+    [SerializeField] private Slider healthSlider;
+    [SerializeField] private float detectionRange = 30f;
+
     [Header("Componentes")]
     private NavMeshAgent agent;
     private Transform player;
@@ -16,6 +22,7 @@ public class BossFinalController : MonoBehaviour
     [SerializeField] private float projectileForce = 25f;
     [SerializeField] private float chaseSpeed = 15f;
     [SerializeField] private float attackRange = 2.5f;
+    [SerializeField] private float shadowDamage = 15;
 
     [Header("Torches")]
     [SerializeField] private Light[] torchLights;
@@ -42,6 +49,9 @@ public class BossFinalController : MonoBehaviour
 
     private void Start()
     {
+
+        currentHealth = maxHealth;
+
         if (projectilePrefab == null)
             Debug.LogError("projectilePrefab no asignado en el Inspector");
         if (shootPoint == null)
@@ -62,6 +72,16 @@ public class BossFinalController : MonoBehaviour
     {
         if (!isDead)
             CheckTorchesState();
+
+        healthSlider.value = currentHealth / maxHealth;
+
+        if(currentHealth <= 0)
+        {
+            StopAllCoroutines();
+            Destroy(gameObject);
+            OnBossDeath.Invoke();
+        }
+
     }
 
     private IEnumerator BossBehaviourLoop()
@@ -80,6 +100,8 @@ public class BossFinalController : MonoBehaviour
     {
         if (isFeared) yield break;
         if (shootPoint == null || projectilePrefab == null) yield break;
+        if (Vector3.Distance(transform.position, player.position) > detectionRange) yield break;
+
 
         for (int i = 0; i < projectilesPerBurst; i++)
         {
@@ -106,6 +128,9 @@ public class BossFinalController : MonoBehaviour
     {
         if (isFeared) yield break;
         if (agent == null || player == null) yield break;
+
+        if(Vector3.Distance(transform.position, player.position) > detectionRange) yield break;
+
 
         float chaseTime = 8f;
         float elapsed = 0f;
@@ -181,6 +206,7 @@ public class BossFinalController : MonoBehaviour
             isDead = true;
             agent.isStopped = true;
             Debug.Log("Boss derrotado");
+            
         }
     }
 
@@ -206,5 +232,10 @@ public class BossFinalController : MonoBehaviour
         }
 
         isFeared = false;
+    }
+
+    public float MakeDamage()
+    {
+        return shadowDamage;
     }
 }
