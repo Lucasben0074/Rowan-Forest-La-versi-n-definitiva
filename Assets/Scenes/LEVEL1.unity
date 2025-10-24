@@ -46181,6 +46181,10 @@ PrefabInstance:
       propertyPath: shootCooldown
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1619148665963116231, guid: 0ff32f57e2a81534997eae7eb372b4b8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2993642291925245887, guid: 0ff32f57e2a81534997eae7eb372b4b8, type: 3}
       propertyPath: threeBlock
       value: 
@@ -59559,6 +59563,14 @@ PrefabInstance:
     - target: {fileID: 6724679573626101644, guid: 46e358c74bf51724b80cbf2a0f41aca7, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084910238485437019, guid: 46e358c74bf51724b80cbf2a0f41aca7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9084910238485437019, guid: 46e358c74bf51724b80cbf2a0f41aca7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9198789581863426158, guid: 46e358c74bf51724b80cbf2a0f41aca7, type: 3}
       propertyPath: m_IsActive
