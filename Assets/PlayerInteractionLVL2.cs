@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerInteractionLVL2 : MonoBehaviour
 {
+    [SerializeField] private GameObject Gate;
     public UnityEvent OnBossActivate;
     [SerializeField] private GameObject narrativePanel;
     private NPCDialogue currentNPC;
@@ -25,7 +26,7 @@ public class PlayerInteractionLVL2 : MonoBehaviour
     private Canvas torchInteraction;
     private Light torchLight;
     private ParticleSystem torchFlame;
-    private int torchCount = 0;
+    private int torchCount = 3;
 
     public void DisableNarrativePanel()
     {
@@ -45,8 +46,8 @@ public class PlayerInteractionLVL2 : MonoBehaviour
         {
             DisableNarrativePanel();
             narrativePanelActivate = false;
-        
-            }
+            Time.timeScale = 1.0f;
+        }
 
         //  Interacción con NPC
         if (currentNPC != null && Input.GetKeyDown(KeyCode.E))
@@ -184,7 +185,8 @@ public class PlayerInteractionLVL2 : MonoBehaviour
         {
             if (canAccesLvl3)
             {
-                SceneManager.LoadScene("LEVEL 3");
+                //abrir puerta. con un transform
+                Gate.transform.Translate(Vector3.left * 15 * Time.deltaTime);
             }
             else
             {
