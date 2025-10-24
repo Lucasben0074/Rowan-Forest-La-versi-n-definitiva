@@ -25,6 +25,7 @@ public class EventFunctionLVL2 : MonoBehaviour
 
     public void OnBossDestroyed()
     {
+        Time.timeScale = 0;
         Cursor.visible = true;
         narrativePanel.SetActive(true);
         Rowan.position = returnPoint.position;

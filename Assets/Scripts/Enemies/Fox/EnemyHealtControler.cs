@@ -25,10 +25,16 @@ public class EnemyHealtControler : MonoBehaviour
         {              
             health -= other.GetComponent<ProjectileDamage>().StoneDamage;
             healthBar.UpdateHealthBar(health,maxHealth);
-            
-            }
-
+             
         }
+        if (other.gameObject.CompareTag("Sword") && (!gameObject.CompareTag("NoDamageable")))
+        {
+            Debug.Log("Ataque con espada");
+            health -= other.GetComponent<SwordAttack>().SwordDamage;
+            healthBar.UpdateHealthBar(health, maxHealth);
+        }
+    }
+        
 
     }
 
