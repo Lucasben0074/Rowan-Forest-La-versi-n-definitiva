@@ -19,6 +19,7 @@ TagManager:
   - NoDamageable
   - Torch
   - LVL3Door
+  - Sword
   layers:
   - Default
   - TransparentFX
