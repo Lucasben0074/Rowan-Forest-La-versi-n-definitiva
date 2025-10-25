@@ -42,7 +42,7 @@ public class DialogueSistem : MonoBehaviour
                 "¿En serio?, ¿Dónde puedo encontrarlo?",
                 "Debes seguir el camino y lo hallarás en el círculo de las runas.",
                 "¡Gracias!",
-                "(Advertencia) ¡Ten cuidado!, el bosque esconde muchos peligros, no bajes la guardia."
+                "¡Ten cuidado!, el bosque esconde muchos peligros, no bajes la guardia."
             },
             new string[]
             {
@@ -63,7 +63,7 @@ public class DialogueSistem : MonoBehaviour
             "Qué pena... Yo podría ayudarte a recuperarlas pero también necesito tu ayuda.",
             "¡Qué valiente! Haciendo tratos con un desconocido. Muy bien niña deberás revelar los secretos de este bosque para encontrarlas.",
             "Las flores azules se inclinan hacia lo que guardan. Sigue su mirada y lo encontrarás.",
-            "[PRIMER DESAFÍO]"
+            
         },
         new string[]
         {
@@ -72,7 +72,7 @@ public class DialogueSistem : MonoBehaviour
             "Rowan",
             "NPC 2",
             "NPC 2",
-            "NPC 2"
+            
         }
         ));
         dialogues.Add(3, new Dialogue(
@@ -93,15 +93,13 @@ public class DialogueSistem : MonoBehaviour
         dialogues.Add(4, new Dialogue(
             new string[]
             {
-                "¡Bravo!. Estamos cada vez mas cerca.",
-                " :D *feliz*\r\n",
+                "¡Bravo!. Estamos cada vez mas cerca.",               
                 "“No siempre lo nuevo abre caminos; a veces, el regreso trae la salida.\r\nVuelve sobre tus huellas y hallarás lo que antes estaba sellado.\r\n”\r\n",
 
             },
             new string[]
             {
                 "NPC2",
-                "Rowan",
                 "NPC2",
             }));
         dialogues.Add(5, new Dialogue(

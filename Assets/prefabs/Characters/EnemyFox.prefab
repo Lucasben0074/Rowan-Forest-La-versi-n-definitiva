@@ -129,9 +129,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2da3fa5df84d547a2ae8d1c5997b07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foxSpeed: 5
-  rotationSpeed: 8
-  maxDistance: 15
+  foxSpeed: 9
+  rotationSpeed: 15
+  maxDistance: 30
   attackRange: 4
 --- !u!114 &-751641741116854112
 MonoBehaviour:
