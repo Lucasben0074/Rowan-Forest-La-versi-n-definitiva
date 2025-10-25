@@ -4,7 +4,7 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     [Header("Velocidades")]
-    [SerializeField] private float movementSpeed = 10f;
+    [SerializeField] private float walkSpeed = 10f;
     [SerializeField] private float sprintSpeed = 14f;
     [SerializeField] private float crouchSpeed = 1f;
     [SerializeField] private float rotationSpeed = 360f;
@@ -15,11 +15,16 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float groundCheckRadius = 0.1f;
 
+    [Header("Detección de obstáculos frontales")]
+    [SerializeField] private float obstacleDetectDistance = 1f; // distancia del raycast
+    [SerializeField] private LayerMask obstacleLayer; // capa de colisión de obstáculos
+
     private Rigidbody rb;
     private Animator anim;
     private bool isGrounded;
     private bool isCrouched;
-    private float startVelocity;
+    private bool isSprinting;
+    private float currentSpeed;
     private Vector3 moveInput;
 
     public bool IsCrouched => isCrouched;
@@ -29,7 +34,7 @@ public class CharacterMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
         rb.freezeRotation = true;
-        startVelocity = movementSpeed;
+        currentSpeed = walkSpeed;
     }
 
     private void Update()
@@ -38,6 +43,7 @@ public class CharacterMovement : MonoBehaviour
         HandleJump();
         HandleCrouch();
         HandleSprint();
+        DetectObstacle(); // detecta obstáculos cada frame
     }
 
     private void FixedUpdate()
@@ -58,7 +64,6 @@ public class CharacterMovement : MonoBehaviour
         camRight.Normalize();
 
         moveInput = (camForward * moveV + camRight * moveH).normalized;
-
         anim.SetBool("walking", moveInput.magnitude > 0.1f);
     }
 
@@ -86,21 +91,42 @@ public class CharacterMovement : MonoBehaviour
     {
         if (!isCrouched && Input.GetKey(KeyCode.LeftShift) && moveInput.magnitude > 0.1f)
         {
+            isSprinting = true;
             anim.SetBool("running", true);
-            movementSpeed = sprintSpeed;
         }
         else
         {
+            isSprinting = false;
             anim.SetBool("running", false);
-            movementSpeed = isCrouched ? crouchSpeed : startVelocity;
         }
+
+        // velocidad base (sin obstáculo)
+        currentSpeed = isCrouched ? crouchSpeed : (isSprinting ? sprintSpeed : walkSpeed);
+    }
+
+    private void DetectObstacle()
+    {
+        // Si no te estás moviendo, no hace falta detectar
+        if (moveInput.magnitude < 0.1f) return;
+
+        // Raycast al frente del jugador
+        Vector3 rayOrigin = transform.position + Vector3.up * 0.5f;
+        if (Physics.Raycast(rayOrigin, transform.forward, out RaycastHit hit, obstacleDetectDistance, obstacleLayer))
+        {
+            //  Hay obstáculo delante reducir velocidad a caminar
+            currentSpeed = walkSpeed;
+            anim.SetBool("running", false);
+        }
+
+        // (Opcional dibujar el rayo en la vista de escena)
+        Debug.DrawRay(rayOrigin, transform.forward * obstacleDetectDistance, Color.red);
     }
 
     private void MoveAndRotate()
     {
         if (moveInput.magnitude > 0.1f)
         {
-            Vector3 move = moveInput * movementSpeed * Time.fixedDeltaTime;
+            Vector3 move = moveInput * currentSpeed * Time.fixedDeltaTime;
             rb.MovePosition(rb.position + move);
 
             Quaternion targetRotation = Quaternion.LookRotation(moveInput);

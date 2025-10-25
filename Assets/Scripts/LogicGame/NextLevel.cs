@@ -9,7 +9,7 @@ public class NextLevel : MonoBehaviour
     {
         if(playerContact && canNextLevel)
         {
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("LEVEL2");
         }
         else if( playerContact && !canNextLevel)
         {

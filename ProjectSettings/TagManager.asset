@@ -20,6 +20,8 @@ TagManager:
   - Torch
   - LVL3Door
   - Sword
+  - LifePowerUp
+  - BulletPowerUp
   layers:
   - Default
   - TransparentFX
@@ -30,7 +32,7 @@ TagManager:
   - Player
   - Enemy
   - Enviroment
-  - 
+  - Obstacle
   - 
   - 
   - 

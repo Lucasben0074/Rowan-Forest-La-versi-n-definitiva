@@ -15,30 +15,19 @@ public class PlayerInteraction : MonoBehaviour
     public bool IsLevelKey => isLevelKey;   
     private string stoneName = null;
     private int stoneNumber;
+ 
     [SerializeField] private GameObject threeBlock;
     [SerializeField] private GameObject secondThreeBlock;
     private void Start()
     {
         eventActivator.SetActive(false);
 
-        if (Interaction != null)
-        {
-            Interaction.gameObject.SetActive(false);
-        }
     }
 
     void Update()
     {
-        if(stoneNumber == 3)
-        {
-            Destroy(secondThreeBlock);
-        }
 
-        if(stoneNumber == 4)
-        {
-            Destroy(threeBlock);
-        }
-
+        Debug.Log(stoneNumber + "stoneNumber");
         if (currentNPC != null && Input.GetKeyDown(KeyCode.E))
         {
             if(stoneName != null)
@@ -64,10 +53,22 @@ public class PlayerInteraction : MonoBehaviour
             DialogueSistem.Instance.DisplayNextSentence();
         }
 
-        if(stoneNumber == 5 && eventActivator != null)
+        if (stoneNumber == 3)
+        {
+            Destroy(secondThreeBlock);
+        }
+
+        if (stoneNumber == 4)
+        {
+            Destroy(threeBlock);
+        }
+
+        if (stoneNumber == 5 && eventActivator != null)
         {
             eventActivator.SetActive(true);
+            
         }
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -77,7 +78,13 @@ public class PlayerInteraction : MonoBehaviour
             NPCDialogue npc = other.GetComponent<NPCDialogue>();
             if (npc != null)
             {
-                Interaction.gameObject.SetActive(true);
+                
+                Canvas canvasHijo = npc.GetComponentInChildren<Canvas>(true);
+                if (canvasHijo != null)
+                {
+                    canvasHijo.enabled = true;
+                }
+                
                 currentNPC = npc;
                 Debug.Log("Presiona E para hablar.");
             }
@@ -93,12 +100,19 @@ public class PlayerInteraction : MonoBehaviour
 
         if (other.gameObject.CompareTag("Stone"))
         {
-            stoneName = other.gameObject.GetComponent<Stones>().Name;
-            stoneNumber = other.gameObject.GetComponent<Stones>().IDstone;
-            Destroy(other.gameObject);  
+            var stone = other.GetComponent<Stones>();
+            if (stone != null)
+            {
+                GameManager.Instance.AddCollectedStone(stone.IDstone);
+                GameManager.Instance.SaveCheckpoint(transform.position);
+                stoneNumber = stone.IDstone + 2;
+                stoneName = stone.Name;
+            }
+
+            Destroy(other.gameObject);
         }
 
-        
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -107,7 +121,12 @@ public class PlayerInteraction : MonoBehaviour
         {
             if (other.GetComponent<NPCDialogue>() == currentNPC)
             {
-                Interaction.gameObject.SetActive(false);
+                Canvas canvasHijo = other.GetComponentInChildren<Canvas>(true);
+                if (canvasHijo != null)
+                {
+                    canvasHijo.enabled = false;
+                }
+                
                 currentNPC = null;
             }
         }
