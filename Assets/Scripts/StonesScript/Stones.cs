@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Stones : MonoBehaviour
 {
-    [SerializeField] private int IdStone;
-    [SerializeField] private string NameStone;
+    [SerializeField] private int idstone;
+    public int IDstone => idstone;
 
-    public int IDstone => IdStone;
-    public string Name => NameStone;
+    [SerializeField] private string stoneName;
+    public string Name => stoneName;
 }

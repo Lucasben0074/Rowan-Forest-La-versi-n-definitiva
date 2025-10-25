@@ -18,8 +18,12 @@ public class CharacterShooting : MonoBehaviour
     private bool canShoot = true;
     [SerializeField] private float shootCooldown = 1.8f;
     private float timer = 0f;
+    private float powerUpTimer = 0f;
+    [SerializeField] float BulletPowerUpDuration = 3f;
+    private float defaultDuration = 0.4f;
     public bool IsAiming => isAiming;
 
+    private bool bulletPowerUp = false;
     private void Start()
     {
         thirdPersonCam = playerCamera.GetComponent<ThirdPersonCamera>();
@@ -41,6 +45,23 @@ public class CharacterShooting : MonoBehaviour
                 timer = 0f;
             }
         }
+
+        if (bulletPowerUp)
+        {
+            powerUpTimer += Time.deltaTime;
+            projectilePrefab.GetComponent<Projectile>().Lifetime = BulletPowerUpDuration;
+            Debug.Log("PowerUp activado, mayor rango");
+            if(powerUpTimer > 6f)
+            {
+                Debug.Log("PowerUp desactivado");
+                projectilePrefab.GetComponent<Projectile>().Lifetime = defaultDuration;
+                powerUpTimer = 0f;
+                bulletPowerUp = false;
+                
+            }
+            
+        }
+
     }
 
     private void HandleAim()
@@ -92,4 +113,13 @@ public class CharacterShooting : MonoBehaviour
 
         
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("BulletPowerUp"))
+        {
+            bulletPowerUp = true;
+        }
+    }
+
 }

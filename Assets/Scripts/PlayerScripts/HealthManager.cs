@@ -19,7 +19,7 @@ public class HealthManager : MonoBehaviour
     {
         if(GameManager.Instance.PlayerLives > 0)
         {
-            GameManager.Instance.LoseLifes(1);
+            GameManager.Instance.LoseLife(1);
             Invoke(nameof(ReloadScene), 1.5f);
             isDead = true;
         }
@@ -76,5 +76,12 @@ public class HealthManager : MonoBehaviour
             TakeDamage(damage);
             Debug.Log(currentHealth);    
         }
+
+        if (other.gameObject.CompareTag("LifePowerUp"))
+        {
+            currentHealth = startHealth;
+            Destroy(other.gameObject);
+        }
+
     }
 }

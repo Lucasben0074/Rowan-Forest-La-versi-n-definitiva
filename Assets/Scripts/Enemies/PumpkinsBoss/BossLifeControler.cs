@@ -20,9 +20,9 @@ public class BossLifeControler : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         if (healthSlider == null)
         {
-            healthSlider = GameObject.Find("FirstBoss").GetComponent<Slider>();
+            healthSlider = GameObject.Find("BossHealthSlider").GetComponent<Slider>();
         }
-        bossSlider = GameObject.Find("FirstBoss");
+        bossSlider = GameObject.Find("BossHealthSlider");
         eventActivator = GameObject.Find("BossEventActivation");
         dropPosition = transform.position;
     }
