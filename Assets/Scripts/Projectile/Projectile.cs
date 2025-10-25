@@ -5,6 +5,11 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] private float speed = 20f;
     [SerializeField] private float lifeTime = 3f;
+    public float Lifetime
+    {
+        get {  return lifeTime; }
+        set { lifeTime = value; }
+    }
 
     private Rigidbody rb;
 
