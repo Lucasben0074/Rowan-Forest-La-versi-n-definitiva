@@ -198,10 +198,16 @@ public class DialogueSistem : MonoBehaviour
             {
                 "Gracias Rowan!! Por devolver la luz a este lugar, pasó tanto tiempo que olvidé cómo se sentía la luz. ",
                 "No fue fácil, pero fue posible gracias a tus consejos.",
-                "Para recompensarte solo puedo ofrecerte esta espada, tu camino aún continúa, espero que encuentres a tu hermano.",
+                "Rowan he visto un niño pasar esta puerta, detras de ella hay un gran laberinto, y es en donde muchos fallan",
+                "Faltan 2 minutos para que el sol se vuelva a poner, si logras encontrar a tu hermano antes de ese tiempo, lograran salir ambos de este mundo traicionero",
+                "¿Solo tengo dos minutos?",
+                "Si, date prisa, el tiempo vuela Rowan, te deseo mucha suerte",
             },
             new string[]
             {
+                "NPC2",
+                "Rowan",
+                "NPC2",
                 "NPC2",
                 "Rowan",
                 "NPC2",

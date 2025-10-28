@@ -52,7 +52,7 @@ public class MeleeEnemyAI1 : MonoBehaviour
         StartCoroutine(UpdateState());
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (isFeared) 
         {
@@ -96,7 +96,7 @@ public class MeleeEnemyAI1 : MonoBehaviour
         isWalkPointSet = false;
     }
 
-    private void Chasing()
+    protected virtual void Chasing()
     {
         agent.SetDestination(player.position); 
     }
@@ -174,27 +174,9 @@ public class MeleeEnemyAI1 : MonoBehaviour
     }
 
 
-    //private IEnumerator UpdateState()
-    //{
-    //    while (true)
-    //    {
-    //        if (!isFeared)
-    //        {
-    //            isPlayerInSightRange = Physics.CheckSphere(transform.position, sightRange, playerLayer);
-    //            isPlayerInAttackRange = Physics.CheckSphere(transform.position, attackRange, playerLayer);
-    //        }
-
-
-    //        yield return new WaitForSeconds(0.3f);
-    //    }
-    //}
 
     private void HandleFear()
     {
-        //if (isDestroyedOnFear)
-        //{
-        //    Destroy(gameObject, 2);
-        //}
 
         fearTimer -= Time.deltaTime;     
         agent.SetDestination(transform.position + fearDirection * 10f);
