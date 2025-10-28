@@ -22,6 +22,8 @@ TagManager:
   - Sword
   - LifePowerUp
   - BulletPowerUp
+  - LabCollider
+  - Brother
   layers:
   - Default
   - TransparentFX
@@ -33,7 +35,7 @@ TagManager:
   - Enemy
   - Enviroment
   - Obstacle
-  - 
+  - wall
   - 
   - 
   - 

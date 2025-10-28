@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90cc48ba69f56224b9657d6c9087a35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 7
+  walkSpeed: 10
   sprintSpeed: 10
   crouchSpeed: 3
   rotationSpeed: 720
@@ -122,6 +122,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   groundCheckRadius: 0.1
+  obstacleDetectDistance: 1
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &6996401159152530744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c23a0550ffcacba42b783628398235c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHealth: 100
+  startHealth: 250
   healthSlider: {fileID: 0}
   healthValue: 0
   Lives: {fileID: 0}
@@ -174,6 +178,7 @@ MonoBehaviour:
   normalFov: 60
   aimSmooth: 10
   shootCooldown: 1.8
+  BulletPowerUpDuration: 3
 --- !u!1 &6075041151473523236
 GameObject:
   m_ObjectHideFlags: 0
