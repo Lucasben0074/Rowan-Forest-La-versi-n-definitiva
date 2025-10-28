@@ -11,6 +11,7 @@ public class HealthManager : MonoBehaviour
     [SerializeField] private float healthValue;
     [SerializeField] private TMP_Text Lives;
     private bool isDead = false;
+    private Animator animator;
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
@@ -20,12 +21,13 @@ public class HealthManager : MonoBehaviour
         if(GameManager.Instance.PlayerLives > 0)
         {
             GameManager.Instance.LoseLife(1);
-            Invoke(nameof(ReloadScene), 1.5f);
+            Invoke(nameof(ReloadScene), 4f);
             isDead = true;
+            
         }
         else
         {
-            Debug.Log("Perdiste maldito perdedor.");
+            SceneManager.LoadScene("GameOver");
         }
        
     }
@@ -39,15 +41,17 @@ public class HealthManager : MonoBehaviour
         isDead = false;
         currentHealth = startHealth;
         Lives.text = GameManager.Instance.PlayerLives.ToString();
+        animator = GetComponentInChildren<Animator>();    
     }
 
     void Update()
     {
         if (isDead) return;
         
-        if(currentHealth <= 0)
-        {          
-                Death();      
+        if(currentHealth <= 0 || gameObject.GetComponent<LabenrynthTimer>().TimeOver)
+        {
+            animator.SetTrigger("death");
+            Death();      
         }
 
 
