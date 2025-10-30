@@ -1,9 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PausedFunction : MonoBehaviour
 {
+
+    [SerializeField] AudioMixer mainMixer;
+    [SerializeField] string nameParameter = "mainMixerVolume";
+
     [Header("Panel y Botones")]
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private Button continueButton;
@@ -26,9 +31,16 @@ public class PausedFunction : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             if (!isPaused)
+            {
                 Paused();
+                mainMixer.SetFloat(nameParameter, -8f);
+            }                
             else
+            {
                 NotPaused();
+                mainMixer.SetFloat(nameParameter, 2f);
+            }
+                
         }
 
         if (!isPaused) return;

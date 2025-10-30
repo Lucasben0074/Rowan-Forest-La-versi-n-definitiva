@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class EventFunctionLVL2 : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class EventFunctionLVL2 : MonoBehaviour
     [SerializeField] private GameObject bossSliderHealth;
     [SerializeField] private GameObject LVL3Gate;
     [SerializeField] private GameObject RowanLogic;
-
+    [SerializeField] private AudioMixerSnapshot bossSnapshot;
+    [SerializeField] private AudioMixerSnapshot explorationSnapshot;
+    [SerializeField] private GameObject SuspenseCollider;
     private void Start()
     {
 
@@ -21,10 +24,15 @@ public class EventFunctionLVL2 : MonoBehaviour
     public void OnSetFinalScene()
     {
         Time.timeScale = 0;
+        SuspenseMusic.IsLocked = true;
+
         MindNarrative.SetActive(true);
         RowanLogic.GetComponent<PlayerInteractionLVL2>().NarrativePanelActivate = true;
         Rowan.position = setPoint.position;
         bossSliderHealth.SetActive(true);
+        if (bossSnapshot != null)
+            bossSnapshot.TransitionTo(1.5f);
+
     }
 
     public void OnBossDestroyed()
@@ -38,7 +46,9 @@ public class EventFunctionLVL2 : MonoBehaviour
         Debug.Log(RowanLogic.GetComponent<PlayerInteractionLVL2>().CanAccesLvl3);
         bossSliderHealth.SetActive(false);
         LVL3Gate.GetComponent<Renderer>().material.color = Color.green;
-        
+        if (explorationSnapshot != null)
+            explorationSnapshot.TransitionTo(0f);
+        Destroy(SuspenseCollider);
     }
 
 

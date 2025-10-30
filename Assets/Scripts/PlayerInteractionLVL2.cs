@@ -10,7 +10,7 @@ public class PlayerInteractionLVL2 : MonoBehaviour
     [SerializeField] private GameObject narrativePanel;
     [SerializeField] private GameObject mindNarrativePanel;
     private NPCDialogue currentNPC;
-    private bool canAccesLvl3 = false;
+    private bool canAccesLvl3 = true;
     private bool narrativePanelActivate = false;
     public bool NarrativePanelActivate
     {
@@ -107,6 +107,7 @@ public class PlayerInteractionLVL2 : MonoBehaviour
 
         if (moveGate)
         {
+           
             Gate.transform.Translate(Vector3.left * 7 * Time.deltaTime);
             timer += Time.deltaTime;
             if(timer > 6f)
@@ -198,6 +199,7 @@ public class PlayerInteractionLVL2 : MonoBehaviour
         {
             if (canAccesLvl3)
             {
+                Gate.GetComponent<AudioSource>().Play();
                 moveGate = true;               
             }
             else

@@ -16,6 +16,7 @@ public class CharacterShooting : MonoBehaviour
     private bool isAiming;
     private ThirdPersonCamera thirdPersonCam;
     private bool canShoot = true;
+    public bool Canshoot => canShoot;
     [SerializeField] private float shootCooldown = 1.8f;
     private float timer = 0f;
     private float powerUpTimer = 0f;
@@ -24,6 +25,7 @@ public class CharacterShooting : MonoBehaviour
     public bool IsAiming => isAiming;
 
     private bool bulletPowerUp = false;
+
     private void Start()
     {
         thirdPersonCam = playerCamera.GetComponent<ThirdPersonCamera>();
@@ -84,7 +86,9 @@ public class CharacterShooting : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && isAiming && canShoot)
         {
+            
             Shoot();
+            
         }
     }
 
@@ -119,6 +123,7 @@ public class CharacterShooting : MonoBehaviour
         if (other.gameObject.CompareTag("BulletPowerUp"))
         {
             bulletPowerUp = true;
+
         }
     }
 

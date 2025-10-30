@@ -12,6 +12,12 @@ public class HealthManager : MonoBehaviour
     [SerializeField] private TMP_Text Lives;
     private bool isDead = false;
     private Animator animator;
+    [SerializeField] private AudioSource HealthAudioSource;
+
+    [SerializeField] AudioClip hurt, death, powerUp;
+
+
+
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
@@ -50,6 +56,7 @@ public class HealthManager : MonoBehaviour
         
         if(currentHealth <= 0 || gameObject.GetComponent<LabenrynthTimer>().TimeOver)
         {
+            HealthAudioSource.PlayOneShot(death);
             animator.SetTrigger("death");
             Death();      
         }
@@ -65,9 +72,11 @@ public class HealthManager : MonoBehaviour
 
         if (damageMaker != null)
         {
+
+            HealthAudioSource.PlayOneShot(hurt);
             float damage = damageMaker.MakeDamage();
             TakeDamage(damage);
-            Debug.Log(currentHealth);
+            
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -76,13 +85,15 @@ public class HealthManager : MonoBehaviour
 
         if (damageMaker != null)
         {
+            HealthAudioSource.PlayOneShot(hurt);
             float damage = damageMaker.MakeDamage();
             TakeDamage(damage);
-            Debug.Log(currentHealth);    
+              
         }
 
         if (other.gameObject.CompareTag("LifePowerUp"))
         {
+            HealthAudioSource.PlayOneShot(powerUp);
             currentHealth = startHealth;
             Destroy(other.gameObject);
         }
