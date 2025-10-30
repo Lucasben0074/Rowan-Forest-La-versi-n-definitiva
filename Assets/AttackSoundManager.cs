@@ -24,9 +24,10 @@ public class AttackSoundManager : MonoBehaviour
                 m_SoundSource.PlayOneShot(Amulet);
         }
 
-        if (Input.GetMouseButtonDown(0) && characterShooting.IsAiming && characterShooting.Canshoot)
+        if (Input.GetMouseButtonDown(0) && characterShooting.IsAiming)
         {
-            m_SoundSource.PlayOneShot(stones);
+            if(characterShooting.Canshoot)
+                m_SoundSource.PlayOneShot(stones);
         }
 
     }
