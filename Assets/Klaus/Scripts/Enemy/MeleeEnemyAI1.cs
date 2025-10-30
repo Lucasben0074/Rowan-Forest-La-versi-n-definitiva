@@ -6,6 +6,14 @@ public class MeleeEnemyAI1 : MonoBehaviour
 {
 
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+
+    [SerializeField] private AudioClip chaseClip;
+    [SerializeField] private AudioClip fearClip;
+
+
+    private bool hasPlayedChaseSound = false; 
 
     [SerializeField] private LayerMask enviroment;
 
@@ -77,19 +85,17 @@ public class MeleeEnemyAI1 : MonoBehaviour
     private void Patrolling()
     {
         if (!isWalkPointSet) SearchWalkPoint();
-
         if (isWalkPointSet)
-        {
             agent.SetDestination(walkPoint);
-        }
 
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
-
         if (distanceToWalkPoint.magnitude < 0.1f)
-        {
             Invoke(nameof(ResetIsWalkPointSet), 3);
-        }
+
+
+        hasPlayedChaseSound = false; 
     }
+
 
     private void ResetIsWalkPointSet()
     {
@@ -98,7 +104,14 @@ public class MeleeEnemyAI1 : MonoBehaviour
 
     protected virtual void Chasing()
     {
-        agent.SetDestination(player.position); 
+        agent.SetDestination(player.position);
+
+        if (!hasPlayedChaseSound)
+        {
+            if (chaseClip != null)
+                audioSource.PlayOneShot(chaseClip);
+            hasPlayedChaseSound = true;
+        }
     }
 
     private void Attacking()
@@ -177,20 +190,28 @@ public class MeleeEnemyAI1 : MonoBehaviour
 
     private void HandleFear()
     {
-
-        fearTimer -= Time.deltaTime;     
+        fearTimer -= Time.deltaTime;
         agent.SetDestination(transform.position + fearDirection * 10f);
 
-        if (fearTimer <= 0f)
+        if (fearTimer > 0.1f && !audioSource.isPlaying)
         {
-            isFeared = false;
+            if (fearClip != null)
+                audioSource.PlayOneShot(fearClip);
         }
+
+        if (fearTimer <= 0f)
+            isFeared = false;
     }
+
 
     public void ApplyFear(Vector3 sourcePosition, float duration)
     {
         isFeared = true;
         fearTimer = duration;
         fearDirection = (transform.position - sourcePosition).normalized;
+
+        if (fearClip != null)
+            audioSource.PlayOneShot(fearClip);
     }
+
 }

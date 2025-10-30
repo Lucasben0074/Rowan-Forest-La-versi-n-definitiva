@@ -10,6 +10,7 @@ public class AreaFear : MonoBehaviour
     [SerializeField] private float fearCooldown = 10f;
     private float timer = 0f;
     private bool canFear = true;
+    public bool Canfear => canFear;
     [SerializeField] private float manaCost = 20;
     [SerializeField] private float radius = 30f;       // Radio de la esfera de fear
     [SerializeField] private float fearDuration = 3f;  // Cuánto dura el efecto

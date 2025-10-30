@@ -5,10 +5,13 @@ public class CharacterMovement : MonoBehaviour
 {
     [Header("Velocidades")]
     [SerializeField] private float walkSpeed = 10f;
+    public float Walk => walkSpeed;
     [SerializeField] private float sprintSpeed = 14f;
+    public float Sprint => sprintSpeed;
     [SerializeField] private float crouchSpeed = 1f;
     [SerializeField] private float rotationSpeed = 360f;
     [SerializeField] private float jumpForce = 5f;
+    
 
     [Header("Detección de suelo")]
     [SerializeField] private Transform groundCheck;
@@ -22,10 +25,13 @@ public class CharacterMovement : MonoBehaviour
     private Rigidbody rb;
     private Animator anim;
     private bool isGrounded;
+    public bool IsGrounded => isGrounded;
     private bool isCrouched;
     private bool isSprinting;
     private float currentSpeed;
+    public float CurrentSpeed => currentSpeed;
     private Vector3 moveInput;
+    public Vector3 MoveInput => moveInput;
 
     public bool IsCrouched => isCrouched;
 

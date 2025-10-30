@@ -142,6 +142,10 @@ MonoBehaviour:
   healthSlider: {fileID: 0}
   healthValue: 0
   Lives: {fileID: 0}
+  HealthAudioSource: {fileID: 0}
+  hurt: {fileID: 0}
+  death: {fileID: 0}
+  powerUp: {fileID: 0}
 --- !u!114 &2993642291925245887
 MonoBehaviour:
   m_ObjectHideFlags: 0
