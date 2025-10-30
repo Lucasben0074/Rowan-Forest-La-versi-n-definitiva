@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/VentanaInicio.unity
+    guid: e7106e6ac1bc6a549adfb59f167c9c13
+  - enabled: 1
+    path: Assets/Scenes/LVL1 INTRODUCTION.unity
+    guid: 741892d5ff4b5824286a3bd52b495b9f
+  - enabled: 1
+    path: Assets/Scenes/LEVEL1.unity
+    guid: e04a2ed3320707643ab42c8ac5e3d872
+  - enabled: 1
+    path: Assets/Scenes/LEVEL2.unity
+    guid: 5515454b6f364c347b9eb47768cb9336
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 4af5a90dd2736844889604aefbc7a94c
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: fd82d87db07964b4984965151ae43e83
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 43f2c2eff2c6b0e44ad991745643f99b
+  - enabled: 0
+    path: Assets/Scenes/LevelDesign.unity
+    guid: b4ec0582cde50784e9919376fc21e245
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0
