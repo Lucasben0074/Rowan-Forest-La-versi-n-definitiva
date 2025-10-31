@@ -32,6 +32,7 @@ public class AreaFear : MonoBehaviour
             animator.SetTrigger("fear");
             ApplyAreaFear();
             canFear = false;
+            GetComponent<AttackSoundManager>()?.PlayMagicSound();
         }
 
         if (!canFear)
