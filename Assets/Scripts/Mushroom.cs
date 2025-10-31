@@ -1,7 +1,8 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class EnemyBounceChase_Refined : MonoBehaviour,IDamageMaker
+[RequireComponent(typeof(AudioSource))]
+public class EnemyBounceChase_Refined : MonoBehaviour, IDamageMaker
 {
     [Header("Velocidades")]
     [SerializeField] private float walkSpeed = 3f;
@@ -9,8 +10,8 @@ public class EnemyBounceChase_Refined : MonoBehaviour,IDamageMaker
     [SerializeField] private float turnLerp = 10f;
 
     [Header("Detección de paredes")]
-    [SerializeField] private float probeDistance = 4f;      // distancia máxima del raycast (más largo)
-    [SerializeField] private float avoidDistance = 1.5f;    // si la pared está más cerca que esto, gira ya
+    [SerializeField] private float probeDistance = 4f;
+    [SerializeField] private float avoidDistance = 1.5f;
     [SerializeField] private float rechooseCooldown = 0.15f;
 
     [Header("Detección del jugador")]
@@ -20,9 +21,15 @@ public class EnemyBounceChase_Refined : MonoBehaviour,IDamageMaker
     [Header("Animación")]
     [SerializeField] private string runBoolName = "run";
 
-    [Header("Debug (opcional)")]
-    [SerializeField] private bool debugRays = false;
+    [Header("Sonido")]
+    [SerializeField] private AudioClip[] walkClips;
+    [SerializeField] private AudioClip[] runClips;
+    [SerializeField] private AudioClip attackClip;
+    [SerializeField] private float stepIntervalWalk = 0.6f;
+    [SerializeField] private float stepIntervalRun = 0.35f;
 
+    private float stepTimer = 0f;
+    private AudioSource audioSource;
     private Rigidbody rb;
     private Animator anim;
     private Transform player;
@@ -33,7 +40,6 @@ public class EnemyBounceChase_Refined : MonoBehaviour,IDamageMaker
     private float repathTimer = 0f;
     [SerializeField] private float ratDamage = 30f;
 
-    // direcciones para chequear obstáculos
     private static readonly Vector3[] dirs =
     {
         Vector3.forward,
@@ -52,8 +58,9 @@ public class EnemyBounceChase_Refined : MonoBehaviour,IDamageMaker
         rb.freezeRotation = true;
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezePositionY;
 
-
         anim = GetComponentInChildren<Animator>();
+        audioSource = GetComponent<AudioSource>();
+
         var p = GameObject.FindGameObjectWithTag("Player");
         if (p) player = p.transform;
 
@@ -78,6 +85,8 @@ public class EnemyBounceChase_Refined : MonoBehaviour,IDamageMaker
             SetRun(false);
             ChooseRandomDir();
         }
+
+        HandleFootsteps();
     }
 
     void FixedUpdate()
@@ -92,10 +101,8 @@ public class EnemyBounceChase_Refined : MonoBehaviour,IDamageMaker
 
         repathTimer += Time.fixedDeltaTime;
 
-        // distancia frente al enemigo
         float frontClearance = CastDistance(transform.forward);
 
-        // Si hay algo muy cerca o cada ciertos segundos, recalcula dirección
         if (frontClearance < avoidDistance || repathTimer > 2f)
         {
             Vector3 best = transform.forward;
@@ -138,15 +145,9 @@ public class EnemyBounceChase_Refined : MonoBehaviour,IDamageMaker
     {
         Vector3 start = transform.position + Vector3.up * 0.6f;
         if (Physics.Raycast(start, worldDir, out RaycastHit hit, probeDistance, ~0, QueryTriggerInteraction.Ignore))
-        {
-            if (debugRays) Debug.DrawLine(start, hit.point, Color.red);
             return hit.distance;
-        }
         else
-        {
-            if (debugRays) Debug.DrawLine(start, start + worldDir * probeDistance, Color.green);
             return probeDistance;
-        }
     }
 
     private void ChooseRandomDir()
@@ -160,18 +161,39 @@ public class EnemyBounceChase_Refined : MonoBehaviour,IDamageMaker
         if (anim) anim.SetBool(runBoolName, v);
     }
 
-    private void OnDrawGizmosSelected()
+    private void HandleFootsteps()
     {
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawLine(transform.position + Vector3.up * 0.6f, transform.position + transform.forward * probeDistance);
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, detectRange);
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, loseRange);
+        stepTimer -= Time.deltaTime;
+        if (stepTimer <= 0f)
+        {
+            AudioClip clip = null;
+
+            if (chasing && runClips.Length > 0)
+            {
+                clip = runClips[Random.Range(0, runClips.Length)];
+                stepTimer = stepIntervalRun;
+            }
+            else if (!chasing && walkClips.Length > 0)
+            {
+                clip = walkClips[Random.Range(0, walkClips.Length)];
+                stepTimer = stepIntervalWalk;
+            }
+
+            if (clip != null)
+                audioSource.PlayOneShot(clip);
+        }
+    }
+
+    public void PlayAttackSound()
+    {
+        if (attackClip != null)
+            audioSource.PlayOneShot(attackClip);
     }
 
     public float MakeDamage()
     {
+        // Lógica de daño y sonido de ataque
+        PlayAttackSound();
         return ratDamage;
     }
 }

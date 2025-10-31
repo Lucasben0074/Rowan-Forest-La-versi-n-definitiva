@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class AttackSoundManager : MonoBehaviour
@@ -9,27 +10,19 @@ public class AttackSoundManager : MonoBehaviour
 
     private AreaFear areaFear;
     private CharacterShooting characterShooting;
-    void Start()
+    public void PlayShootSound()
     {
-        
+        if (stones != null && m_SoundSource != null)
+            m_SoundSource.PlayOneShot(stones);
+    }
+    public void PlayMagicSound()
+    {
+        if(Amulet != null && m_SoundSource != null) m_SoundSource.PlayOneShot(Amulet);
+    }
+    void Start()
+    {    
         areaFear = GetComponent<AreaFear>();
         characterShooting = GetComponent<CharacterShooting>();
-    }
-
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.F) && areaFear != null)
-        {
-            if(areaFear.Canfear)
-                m_SoundSource.PlayOneShot(Amulet);
-        }
-
-        if (Input.GetMouseButtonDown(0) && characterShooting.IsAiming)
-        {
-            if(characterShooting.Canshoot)
-                m_SoundSource.PlayOneShot(stones);
-        }
-
     }
 
     private void OnTriggerEnter(Collider other)

@@ -115,7 +115,7 @@ public class CharacterShooting : MonoBehaviour
 
         Instantiate(projectilePrefab, shootPoint.position, Quaternion.LookRotation(direction));
 
-        
+        GetComponent<AttackSoundManager>()?.PlayShootSound();
     }
 
     private void OnTriggerEnter(Collider other)
