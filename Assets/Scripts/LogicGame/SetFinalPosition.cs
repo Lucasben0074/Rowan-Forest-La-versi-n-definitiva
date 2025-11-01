@@ -1,0 +1,42 @@
+using NUnit.Framework;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Audio;
+
+public class SetFinalPosition : MonoBehaviour
+{
+    [SerializeField] private GameObject player, boss, NPC;
+    [SerializeField] private Transform playerFinalPosition, NPCFinalPosition;
+    [SerializeField] private Transform BossInstantiatePosition;
+    [SerializeField] private GameObject enemies;
+    [SerializeField] private GameObject bossSlider;
+    [SerializeField] private AudioMixerSnapshot calabaza;
+    [SerializeField] private AudioMixerSnapshot calabazamuerta;
+
+    void Start()
+    {
+        enemies.SetActive(false);
+    }
+    public void SetNPC()
+    {
+        NPC.transform.position = NPCFinalPosition.position;
+    }
+    public void SetBoss()
+    {
+        Instantiate(boss,BossInstantiatePosition.position,Quaternion.identity);
+        bossSlider.SetActive(true);
+        calabaza.TransitionTo(0f);
+    }
+    public void SetRowan()
+    {
+        player.transform.position = playerFinalPosition.position;
+    }
+    public void SetEnemies()
+    {
+        enemies.SetActive(true);
+    }
+    void Update()
+    {
+        
+    }
+}
