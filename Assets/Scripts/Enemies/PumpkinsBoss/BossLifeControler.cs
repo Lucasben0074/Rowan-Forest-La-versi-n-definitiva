@@ -2,15 +2,19 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class BossLifeControler : MonoBehaviour
 {
     private GameObject eventActivator;
+
     [SerializeField] private GameObject levelKey;
     [SerializeField] private GameObject amuleto;
     [SerializeField] private float maxHealth = 300f;
     private float health;
     [SerializeField] private Slider healthSlider;
+    [SerializeField] private AudioMixerSnapshot calabazamuerta;
+
     private GameObject bossSlider;
     private Animator animator;
     private Vector3 dropPosition;
@@ -38,11 +42,14 @@ public class BossLifeControler : MonoBehaviour
     {
         if(health <= 0)
         {   
+            calabazamuerta.TransitionTo(1.3f);
             bossSlider.SetActive(false);    
             Destroy(eventActivator);
             BossDrop();
             animator.SetTrigger("death");
             Destroy(gameObject);
+        
+        
         }
 
         healthSlider.value = health/maxHealth;

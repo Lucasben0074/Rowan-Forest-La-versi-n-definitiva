@@ -28,3 +28,15 @@ ExportedObj/
 *.unitypackage
 .vs
 UserSettings/
+# Ignorar archivos pesados o binarios
+*.zip
+*.png
+*.jpg
+*.psd
+*.fbx
+*.wav
+*.mp4
+*.tiff
+*.blend
+*.unitypackage
+

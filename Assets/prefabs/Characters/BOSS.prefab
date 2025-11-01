@@ -567,6 +567,7 @@ MonoBehaviour:
   amuleto: {fileID: 5166038988650437774, guid: 7ec0d86fd35d58d4ba0f2eae4aee217a, type: 3}
   maxHealth: 225
   healthSlider: {fileID: 0}
+  calabazamuerta: {fileID: 0}
 --- !u!1 &7914669255336431819
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +856,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: -3270076331841122256, guid: 2051f42a92d0c424cb316aef47465d21, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4835078630258379571, guid: d7c4ef2170e41c54eb5f4151b43ee1ef, type: 3}
+    - target: {fileID: -3270076331841122256, guid: 2051f42a92d0c424cb316aef47465d21, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 4835078630258379571, guid: d7c4ef2170e41c54eb5f4151b43ee1ef, type: 3}
+    - target: {fileID: -3270076331841122256, guid: 2051f42a92d0c424cb316aef47465d21, type: 3}
+      propertyPath: 'm_Materials.Array.data[3]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7302405b3eab7164d926eddc47d65a44, type: 2}
     - target: {fileID: -2598182969042596370, guid: 2051f42a92d0c424cb316aef47465d21, type: 3}
       propertyPath: m_Layer
       value: 7

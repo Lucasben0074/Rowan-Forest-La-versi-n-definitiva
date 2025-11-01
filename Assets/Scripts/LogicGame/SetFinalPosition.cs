@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class SetFinalPosition : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class SetFinalPosition : MonoBehaviour
     [SerializeField] private Transform BossInstantiatePosition;
     [SerializeField] private GameObject enemies;
     [SerializeField] private GameObject bossSlider;
+    [SerializeField] private AudioMixerSnapshot calabaza;
+    [SerializeField] private AudioMixerSnapshot calabazamuerta;
+
     void Start()
     {
         enemies.SetActive(false);
@@ -21,6 +25,7 @@ public class SetFinalPosition : MonoBehaviour
     {
         Instantiate(boss,BossInstantiatePosition.position,Quaternion.identity);
         bossSlider.SetActive(true);
+        calabaza.TransitionTo(0f);
     }
     public void SetRowan()
     {
