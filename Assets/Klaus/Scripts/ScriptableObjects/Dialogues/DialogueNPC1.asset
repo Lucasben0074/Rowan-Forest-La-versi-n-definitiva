@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c22316ec66ef924490e3e3d35395a01, type: 3}
+  m_Name: DialogueNPC1
+  m_EditorClassIdentifier: 
+  npcName: NPC1
+  dialogueLines:
+  - 'NPC 1: Hola, eres nueva por aqui? Nunca te habia visto.  '
+  - "Rowan: Hola, Mi nombre es Rowan. Estoy buscando a mi hermano \xBFLo  has visto?"
+  - 'NPC 1: No he visto otro humano por aqui pero NPC2 podria ayudarte. Es muy bueno
+    recordando rostros.'
+  - "Rowan: \xBFEn serio?, \xBFDonde puedo encontrarlo?"
+  - 'NPC 1: Debes seguir el camino y lo hallaras en el circulo de las runas.'
+  - 'Rowan: Gracias!'
+  - "NPC 1: \xA1Ten cuidado! , el bosque esconde muchos peligros, no  bajes la guardia. "
+  autoProgressLines: 01010101010101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.03
