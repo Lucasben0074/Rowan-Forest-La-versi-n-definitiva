@@ -12,12 +12,15 @@ public class BossLifeControler : MonoBehaviour
     [SerializeField] private GameObject amuleto;
     [SerializeField] private float maxHealth = 300f;
     private float health;
+    public float Health => health;
     [SerializeField] private Slider healthSlider;
     [SerializeField] private AudioMixerSnapshot calabazamuerta;
 
     private GameObject bossSlider;
     private Animator animator;
     private Vector3 dropPosition;
+    public bool isHit = false;
+    private bool isDead = false;    
     void Start()
     {
         health = maxHealth;
@@ -40,14 +43,15 @@ public class BossLifeControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(health <= 0)
+        if(health <= 0 && !isDead)
         {   
-            calabazamuerta.TransitionTo(1.3f);
+            isDead = true;
+            calabazamuerta.TransitionTo(0.5f);
             bossSlider.SetActive(false);    
             Destroy(eventActivator);
             BossDrop();
             animator.SetTrigger("death");
-            Destroy(gameObject);
+            Destroy(gameObject,0.6f);
         
         
         }
@@ -60,6 +64,7 @@ public class BossLifeControler : MonoBehaviour
         {
             health -= other.GetComponent<ProjectileDamage>().StoneDamage;
             Debug.Log("Salud de la calabaza: " + health);
+            isHit = true;
         }
 
     }

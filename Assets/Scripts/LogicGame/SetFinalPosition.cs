@@ -11,7 +11,7 @@ public class SetFinalPosition : MonoBehaviour
     [SerializeField] private GameObject enemies;
     [SerializeField] private GameObject bossSlider;
     [SerializeField] private AudioMixerSnapshot calabaza;
-    [SerializeField] private AudioMixerSnapshot calabazamuerta;
+    
 
     void Start()
     {
@@ -25,7 +25,7 @@ public class SetFinalPosition : MonoBehaviour
     {
         Instantiate(boss,BossInstantiatePosition.position,Quaternion.identity);
         bossSlider.SetActive(true);
-        calabaza.TransitionTo(0f);
+        calabaza.TransitionTo(1f);
     }
     public void SetRowan()
     {

@@ -30,7 +30,7 @@ public class PreLevelManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            SceneManager.LoadScene("LEVEL1");
+            SceneManager.LoadScene("LEVEL1 VersionFinal");
         }
 
         switch (currentPhase)

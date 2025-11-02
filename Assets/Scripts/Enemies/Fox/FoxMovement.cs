@@ -94,5 +94,7 @@ public class FoxMovement : MonoBehaviour
 
         canAttack = distanceToPlayer <= attackRange;
         gameObject.GetComponent<FoxAttack>().CanAttack = canAttack;
+        Debug.Log($" Distancia al jugador: {distanceToPlayer}, puede atacar: {canAttack}");
+
     }
 }
