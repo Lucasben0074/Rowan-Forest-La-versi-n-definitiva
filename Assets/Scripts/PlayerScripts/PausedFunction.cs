@@ -72,7 +72,7 @@ public class PausedFunction : MonoBehaviour
     private void HighlightButton(int index)
     {
 
-        buttons[index].image.color = Color.yellow;
+        buttons[index].image.color = Color.red;
     }
 
     private void ActivateSelected()

@@ -3,7 +3,9 @@ using UnityEngine.Events;
 
 public class PlayerInteraction : MonoBehaviour
 {
-
+    [SerializeField] private AudioSource _audio;
+    [SerializeField] private AudioClip keySound;
+    [SerializeField] private AudioClip stoneSound;
     [SerializeField] private GameObject eventActivator;
 
     private NPCDialogue currentNPC;
@@ -108,7 +110,7 @@ public class PlayerInteraction : MonoBehaviour
                 stoneNumber = stone.IDstone + 2;
                 stoneName = stone.Name;
             }
-
+            _audio.PlayOneShot(stoneSound);
             Destroy(other.gameObject);
         }
 
@@ -141,6 +143,8 @@ public class PlayerInteraction : MonoBehaviour
             Destroy(collision.gameObject);
             Debug.Log("ya tengo la llave");
             Debug.Log(isLevelKey);
+            _audio.PlayOneShot(keySound);
+
         }
 
         if (collision.gameObject.CompareTag("Amuleto"))

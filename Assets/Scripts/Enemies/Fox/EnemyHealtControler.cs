@@ -1,3 +1,4 @@
+using System.Threading;
 using UnityEngine;
 
 public class EnemyHealtControler : MonoBehaviour
@@ -5,6 +6,9 @@ public class EnemyHealtControler : MonoBehaviour
     [SerializeField] private float maxHealth;
     private float health;
     private HealthBar healthBar;
+    public float Health => health;
+    //float timer;
+    public bool isHit = false;
     void Start()
     {
         healthBar = GetComponentInChildren<HealthBar>();
@@ -16,8 +20,17 @@ public class EnemyHealtControler : MonoBehaviour
     {
         if(health <= 0f)
         {
-            Destroy(gameObject);
+            Destroy(gameObject,0.3f);
         }
+
+        //if (isHit)
+        //{
+        //    timer += Time.deltaTime;
+        //    if(timer > 0.5f) isHit = false;
+        //}
+        
+
+
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -25,7 +38,9 @@ public class EnemyHealtControler : MonoBehaviour
         {              
             health -= other.GetComponent<ProjectileDamage>().StoneDamage;
             healthBar.UpdateHealthBar(health,maxHealth);
-             
+            isHit = true;
+            //timer = 0;
+            
         }
         if (other.gameObject.CompareTag("Sword") && (!gameObject.CompareTag("NoDamageable")))
         {

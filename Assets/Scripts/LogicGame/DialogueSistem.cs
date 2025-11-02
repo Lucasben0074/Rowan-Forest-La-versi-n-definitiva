@@ -11,12 +11,17 @@ public class DialogueSistem : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private TMP_Text speakerName;
+    [SerializeField] private Image speakerImage;
 
-    private Queue<string> sentences; // Cola para almacenar frases
+    private Queue<string> sentences; 
     private string currentSpeaker;
 
     // Diccionario de diálogos por ID
     private Dictionary<int, Dialogue> dialogues = new Dictionary<int, Dialogue>();
+
+    [Header("Speaker Portraits")]
+    [SerializeField] private List<SpeakerPortrait> speakerPortraitsList;
+    private Dictionary<string, Sprite> speakerPortraits;
 
     void Awake()
     {
@@ -26,7 +31,14 @@ public class DialogueSistem : MonoBehaviour
         sentences = new Queue<string>();
         dialoguePanel.SetActive(false);
 
-        // Acá registramos los diálogos
+
+        speakerPortraits = new Dictionary<string, Sprite>();
+        foreach (var sp in speakerPortraitsList)
+        {
+            if (!speakerPortraits.ContainsKey(sp.speakerName))
+                speakerPortraits.Add(sp.speakerName, sp.portraitSprite);
+        }
+        
         RegisterDialogues();
     }
 
@@ -250,6 +262,15 @@ public class DialogueSistem : MonoBehaviour
 
         speakerName.text = currentSpeaker;
         dialogueText.text = sentence;
+        if (speakerPortraits.ContainsKey(currentSpeaker))
+        {
+            speakerImage.sprite = speakerPortraits[currentSpeaker];
+            speakerImage.enabled = true;
+        }
+        else
+        {
+            speakerImage.enabled = false; // oculta si no hay sprite asignado
+        }
     }
 
     void EndDialogue()
@@ -271,4 +292,10 @@ public class Dialogue
         sentences = s;
         speakers = sp;
     }
+}
+[System.Serializable]
+public class SpeakerPortrait
+{
+    public string speakerName;
+    public Sprite portraitSprite;
 }
