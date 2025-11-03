@@ -13,7 +13,7 @@ public class PlayerInteraction : MonoBehaviour
     private bool specialKey;
     public bool SpecialKey => specialKey;
     private int levelKeyDialogue = 5;
-    private bool isLevelKey = false;
+    private bool isLevelKey = true;
     public bool IsLevelKey => isLevelKey;   
     private string stoneName = null;
     private int stoneNumber;
