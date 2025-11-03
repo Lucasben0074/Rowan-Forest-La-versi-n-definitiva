@@ -10,7 +10,7 @@ public class PlayerInteractionLVL2 : MonoBehaviour
     [SerializeField] private GameObject narrativePanel;
     [SerializeField] private GameObject mindNarrativePanel;
     private NPCDialogue currentNPC;
-    private bool canAccesLvl3 = true;
+    private bool canAccesLvl3 = false;
     private bool narrativePanelActivate = false;
     public bool NarrativePanelActivate
     {
@@ -37,9 +37,7 @@ public class PlayerInteractionLVL2 : MonoBehaviour
     }
     private void Start()
     {
-        // Asegura que el cartel del NPC arranque oculto
-        if (Interaction != null)
-            Interaction.gameObject.SetActive(false);
+
     }
 
     private void Update()
@@ -125,7 +123,12 @@ public class PlayerInteractionLVL2 : MonoBehaviour
             var npc = other.GetComponent<NPCDialogue>();
             if (npc != null)
             {
-                Interaction.gameObject.SetActive(true);
+                Canvas canvasHijo = npc.GetComponentInChildren<Canvas>(true);
+                if (canvasHijo != null)
+                {
+                    canvasHijo.enabled = true;
+                }
+
                 currentNPC = npc;
                 Debug.Log("Presiona E para hablar con NPC");
             }
@@ -174,10 +177,16 @@ public class PlayerInteractionLVL2 : MonoBehaviour
         {
             if (other.GetComponent<NPCDialogue>() == currentNPC)
             {
-                Interaction.gameObject.SetActive(false);
+                Canvas canvasHijo = other.GetComponentInChildren<Canvas>(true);
+                if (canvasHijo != null)
+                {
+                    canvasHijo.enabled = false;
+                }
+
                 currentNPC = null;
             }
         }
+
 
         // Salir del rango de la antorcha
         if (other.CompareTag("Torch"))
